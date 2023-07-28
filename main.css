@@ -1,0 +1,83 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-family: 'Orbitron', sans-serif;
+  box-sizing: border-box;
+  
+}
+.container{
+  background-color: darkgray;
+  max-width: 100%;
+  max-height: 100%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+header{
+  justify-content: center;
+  display: flex;
+  padding: 16px 0;
+}
+header h1{
+  font-size: 40px;
+  font-weight: bold;
+  color: darkslategrey;
+}
+form{
+  justify-content: center;
+  display:flex ;
+  font-size: 20px;
+}
+form input{
+  font-size: 20px;
+}
+form button{
+  background-color: darkslategrey;
+  color:#ffff;
+  font-size: 20px;
+}
+ul li{
+  font-size: 25px;
+  display: flex;
+color: darkslategrey;
+align-items: center;
+  
+}
+ul li .texto{
+  flex-grow: 1;
+}
+.form-container{
+ display:flex;
+ margin: 16px;
+ align-items: center;
+ padding: 16px 0;
+}
+.list-container{
+ justify-content: space-between;
+ align-items: center;
+ display: flex;
+max-width: 30%;
+margin-left: 40%;
+padding: 16px 0;
+
+}
+.feito{
+text-decoration: line-through;
+}
+.check{
+  background-color: rgb(19, 196, 19);
+  color: #ffff;
+  font-size: 15px;
+  font-weight: bold;
+  text-decoration: none;
+}
+.delete{
+  background-color: red;
+  color: #ffff;
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 10px;
+  text-decoration: none;
+}
+.no-text-decoration{
+  text-decoration: none;
+}
